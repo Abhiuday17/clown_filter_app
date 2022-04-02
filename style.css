@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+h3{
+    font-size: 25px !important;
+}
+
+canvas{
+
+    animation-name: hello ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hello{
+    from{box-shadow: 1px 1px 35px blue;}
+    to{box-shadow: 1px 1px 35px green;}
+}
